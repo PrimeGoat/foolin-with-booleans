@@ -2,9 +2,42 @@
  * YOUR CODE BELOW! *
  ********************/
 
+const iGetTheJoke = true;
+const havingFun = true;
+const learning = true;
+const killingIt = learning && havingFun;
 
+function returnFalse(param) {
+  return false;
+}
 
+function isOpposite(param) {
+  return !param;
+}
 
+function both(param1, param2) {
+  return param1 && param2;
+}
+
+function either(param1, param2) {
+  return param1 || param2;
+}
+
+function firstOnly(param1, param2) {
+  return param1 && !param2;
+}
+
+function secondOnly(param1, param2) {
+  return !param1 && param2;
+}
+
+function neither(param1, param2) {
+  return !(param1 || param2);
+}
+
+function itsComplicated(param1, param2, param3) {
+  return !param1 || param2 && param3;
+}
 
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
